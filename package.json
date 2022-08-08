@@ -5,7 +5,12 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "hardhat": "^2.10.1"
+    "@openzeppelin/contracts": "^4.7.2",
+    "dotenv": "^16.0.1",
+    "hardhat": "^2.10.1",
+    "prettier": "^2.7.1",
+    "prettier-plugin-solidity": "^1.0.0-dev.23",
+    "solhint-plugin-prettier": "^0.0.5"
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.4.7",
